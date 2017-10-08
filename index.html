@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-2">Hangman Game</h1>
+        <p class="lead">This is a game of hangman I have built to showcase what I have learned</p>
+        <hr class="my-4">
+        <p>Lets Get Started!</p>
+    </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card text-red bg-danger mb-3" style="max-width: 20rem;">
+                <div class="card-header">Wrong Letters</div>
+                <div class="card-body">
+                    <p class="card-text" id="selected-display"></p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-red bg-info mb-3" style="width: 100%;">
+                <div class="card-header">Random Word</div>
+                <div class="card-body" id="random-word"></div>
+            </div>
+        </div>
+
+        <div class="col-md-4" id="hangman">
+            <div id="display"></div>
+            <img src="assets/images/Hangman.jpg" class="img-fluid" alt="">
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div id="buttons"></div>
+        </div>
+        <div class="col-md-2">
+            <div><span id="wins">0</span></div>
+            <div><span id="losses">0</span></div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    <script src="/path/to/howler.js"></script>
+
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
